@@ -1,6 +1,24 @@
 <!DOCTYPE html>
 <html>
 <head>
+  <title>nika's website</title>
+  <link rel="stylesheet" href="newstyles/styles.css">
+
+  <div id="mySidenav" class="sidenav">
+      <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+      <a href="about me.html">about me</a>
+      <a href="assigments.html">assigments</a>
+      <a href="tech experience.html">tech experience</a>
+    </div>
+    
+    <!-- Use any element to open the sidenav -->
+    <span onclick="openNav()">open</span>
+    
+    <!-- Add all page content inside this div if you want the side nav to push page content to the right (not used if you only want the sidenav to sit on top of the page -->
+    <div id="main">
+      ...
+    </div>
+  </head>
   <style>
     p.courier {
       font-family: 'Courier New', Courier, monospace;
@@ -18,11 +36,7 @@
     <link rel="stylesheet" href="styles/styles.css">
 </head>
 <body>
-    <ul>
-        <li><a class="active" href="about me.html">about me</a></li>
-        <li><a href="pages/assignments.html">assigments</a></li>
-        <li><a href="pages/tech experience.html">tech experience</a></li>
-      </ul>
+   
 
       <h2 class="courier"><i>here's a little bit about me </i></h2>
 <p class="courier">i am a student who's interested in tech design, coding and 
