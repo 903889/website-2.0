@@ -12,14 +12,14 @@ ul {
   
   li a {
     display: block;
-    color: white;
+    color: black;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
   }
   
   li a:hover {
-    background-color: #111;
+    background-color: white;
   }
   
   /* Three image containers (use 25% for four, and 50% for two, etc) */
