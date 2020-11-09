@@ -10,15 +10,3 @@ function whileSumThrees() {
 
 }
 
-<script>
-function myFunction() {
-  var txt;
-  var person = prompt("Please enter your name:", "Harry Potter");
-  if (person == null || person == "") {
-    txt = "User cancelled the prompt."; 
-   } else {
-    txt = "hello" + person + "! how are you today?";
-
-  document.getElementById.innerHTML = txt;
-}
-</script>
