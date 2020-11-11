@@ -64,10 +64,3 @@ ul {
     flex: 50%;
     padding: 5px;
   }
-
-  /* Popup container */
-.popup {
-  position: relative;
-  display: inline-block;
-  cursor: pointer;
-}
