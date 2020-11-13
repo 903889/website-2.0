@@ -9,9 +9,6 @@ const decrypt = data => {
 };
 
 
-import AES from 'crypto-js/aes';
-import Utf8 from 'crypto-js/enc-utf8';
-
 const encryptWithAES = (text, passphrase) => {
   return AES.encrypt(text, passphrase).toString();
 };
